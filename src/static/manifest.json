@@ -1,7 +1,7 @@
 {
   "name": "Weather Extension",
-  "description": "Weather Extension in React!",
-  "version": "1.0.0",
+  "description": "A powerful tool that brings real-time weather updates directly to your browser.",
+  "version": "1.0.1",
   "manifest_version": 3,
   "icons": {
     "16": "icon.png",
