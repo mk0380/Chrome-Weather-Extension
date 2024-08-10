@@ -3,6 +3,14 @@
 ## Overview
 This Weather Extension enhances your browsing experience by providing real-time weather information directly in your browser. It integrates seamlessly with websites, allowing you to view weather conditions for multiple cities, including your home city, and offers customizable features for a personalized experience.
 
+## Images
+
+![alt text](src/static/screenshots/home-city.png)
+![alt text](src/static/screenshots/overlay1.png)
+![alt text](src/static/screenshots/overlay2.png)
+![alt text](src/static/screenshots/tab.png)
+![alt text](src/static/screenshots/right-click.png)
+
 ## Features
 - **API Calling**: Utilizes weather APIs to fetch current weather data.
 - **Multiple Cities**: Add and track weather for multiple cities worldwide.
