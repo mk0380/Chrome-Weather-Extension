@@ -1,33 +1,34 @@
-# CHROME WEATHER EXTENSION
+# Chrome Weather Extension
 
-## Getting Started
+## Overview
+This Weather Extension enhances your browsing experience by providing real-time weather information directly in your browser. It integrates seamlessly with websites, allowing you to view weather conditions for multiple cities, including your home city, and offers customizable features for a personalized experience.
 
-1. `npm i` to install dependancies
-2. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
-3. `npm i --save-dev <package_name>` to install new packages
+## Features
+- **API Calling**: Utilizes weather APIs to fetch current weather data.
+- **Multiple Cities**: Add and track weather for multiple cities worldwide.
+- **Script Injecting**: Injects scripts to display weather information on web pages.
+- **Tabs Communication**: Ensures consistent weather updates across browser tabs.
+- **App Overlay**: Overlays weather information on websites with drag-and-drop functionality.
+- **Options Page**: Customizable options to set your home city and preferences.
+- **Right-Click Integration**: Automatically adds city names via right-click context menu.
 
-## Loading The Chrome Extension
+## Technology Stack
+- **TypeScript**: Ensures robust and scalable code.
 
-1. Open Chrome and navigate to `chrome://extensions/`
-2. Toggle on `Developer mode` in the top right corner
-3. Click `Load unpacked`
-4. Select the entire `dist` folder
+## Installation
+To install the Weather Extension locally, follow these steps:
+1. Clone the repository: `git clone https://github.com/mk0380/Chrome-Weather-Extension.git`
+2. Run the command: `cd Chrome-Weather-Extension`
+2. Run the command: `npm install`
+3. Navigate to the extension settings in your Chrome browser.
+4. Enable developer mode.
+5. Load unpacked extension and select the cloned directory manifest.json directory.
 
-# Important Initial Steps
+## Usage
+- **Adding Cities**: Right-click on any web page to add cities or use the options page.
+- **Drag and Drop**: Drag the weather overlay to any position on the website.
+- **Customization**: Configure options in the extension settings to personalize your weather view.
+- **Real-Time Updates**: Enjoy up-to-date weather information without leaving your current tab.
 
-1. `git init` to start a new git repo for tracking your changes, do an initial base commit with all the default files
-2. Update `package.json`, important fields include `author`, `version`, `name` and `description`
-3. Update `manifest.json`, important fields include `version`, `name` and `description`
-4. Update `webpack.commmon.js`, the title in the `getHtmlPlugins` function should be your extension name
-
-# Production Build
-
-1. `npm run build` to generate a minimized production build in the `dist` folder
-2. ZIP the entire `dist` folder (e.g. `dist.zip`)
-3. Publish the ZIP file on the Chrome Web Store Developer Dashboard!
-
-## Important Default Boilerplate Notes
-
-- Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
-- Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
-- Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+## Support
+For support, contact [mayankkr21@iitk.ac.in] or raise an issue on GitHub.
