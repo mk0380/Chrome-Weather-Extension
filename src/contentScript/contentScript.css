@@ -1,0 +1,12 @@
+.overlayCard {
+  position: fixed; /* changed from fixed to absolute */
+  min-width: 240px;
+  min-height: 240px;
+  background-color: #f5f5f5 !important;
+  z-index: 99999;
+  cursor: grab; /* indicate that the element can be dragged */
+}
+
+.overlayCard:active {
+  cursor: grabbing; /* indicate active dragging */
+}
